@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_elements_images",
+  "collectionName": "components_elements_gallery_images",
   "info": {
-    "displayName": "Image",
+    "displayName": "Gallery Image",
     "icon": "picture"
   },
   "options": {},
@@ -11,10 +11,6 @@
       "required": true
     },
     "description": {
-      "type": "text",
-      "required": true
-    },
-    "alt": {
       "type": "text",
       "required": true
     },
