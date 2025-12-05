@@ -483,8 +483,6 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     heroGallery: Schema.Attribute.Component<'blocks.hero-gallery', false> &
       Schema.Attribute.Required;
-    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false> &
-      Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
