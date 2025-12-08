@@ -27,6 +27,8 @@
                   "phone",
                   "address",
                   "googleMapsUrl",
+                  "instagram",
+                  "facebook",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -81,6 +83,8 @@
                   "phone",
                   "address",
                   "googleMapsUrl",
+                  "instagram",
+                  "facebook",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -139,6 +143,12 @@
                         "googleMapsUrl": {
                           "type": "string"
                         },
+                        "instagram": {
+                          "type": "string"
+                        },
+                        "facebook": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string"
                         },
@@ -146,7 +156,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-07T13:40:05.598Z",
+                          "default": "2025-12-08T13:58:16.431Z",
                           "type": "string"
                         },
                         "seo": {
@@ -233,7 +243,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2025-12-07T13:40:05.608Z",
+                                  "default": "2025-12-08T13:58:16.440Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -327,7 +337,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2025-12-07T13:40:05.608Z",
+                                      "default": "2025-12-08T13:58:16.440Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -368,6 +378,8 @@
                         "phone",
                         "address",
                         "googleMapsUrl",
+                        "instagram",
+                        "facebook",
                         "publishedAt",
                         "seo"
                       ],
@@ -420,6 +432,8 @@
                   "phone",
                   "address",
                   "googleMapsUrl",
+                  "instagram",
+                  "facebook",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -509,6 +523,12 @@
                         "googleMapsUrl": {
                           "type": "string"
                         },
+                        "instagram": {
+                          "type": "string"
+                        },
+                        "facebook": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string"
                         },
@@ -516,7 +536,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-07T13:40:05.616Z",
+                          "default": "2025-12-08T13:58:16.448Z",
                           "type": "string"
                         },
                         "seo": {
@@ -603,7 +623,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2025-12-07T13:40:05.608Z",
+                                  "default": "2025-12-08T13:58:16.440Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -697,7 +717,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2025-12-07T13:40:05.608Z",
+                                      "default": "2025-12-08T13:58:16.440Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -738,6 +758,8 @@
                         "phone",
                         "address",
                         "googleMapsUrl",
+                        "instagram",
+                        "facebook",
                         "publishedAt",
                         "seo"
                       ],
@@ -795,8 +817,14 @@
                       "googleMapsUrl": {
                         "type": "string"
                       },
+                      "instagram": {
+                        "type": "string"
+                      },
+                      "facebook": {
+                        "type": "string"
+                      },
                       "publishedAt": {
-                        "default": "2025-12-07T13:40:05.615Z",
+                        "default": "2025-12-08T13:58:16.446Z",
                         "type": "string"
                       },
                       "seo": {}
@@ -831,6 +859,8 @@
                   "phone",
                   "address",
                   "googleMapsUrl",
+                  "instagram",
+                  "facebook",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -920,6 +950,12 @@
                         "googleMapsUrl": {
                           "type": "string"
                         },
+                        "instagram": {
+                          "type": "string"
+                        },
+                        "facebook": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string"
                         },
@@ -927,7 +963,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-07T13:40:05.619Z",
+                          "default": "2025-12-08T13:58:16.452Z",
                           "type": "string"
                         },
                         "seo": {
@@ -1014,7 +1050,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2025-12-07T13:40:05.608Z",
+                                  "default": "2025-12-08T13:58:16.440Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -1108,7 +1144,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2025-12-07T13:40:05.608Z",
+                                      "default": "2025-12-08T13:58:16.440Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -1149,6 +1185,8 @@
                         "phone",
                         "address",
                         "googleMapsUrl",
+                        "instagram",
+                        "facebook",
                         "publishedAt",
                         "seo"
                       ],
@@ -1300,7 +1338,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-07T13:40:05.623Z",
+                          "default": "2025-12-08T13:58:16.455Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -1379,7 +1417,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-07T13:40:05.608Z",
+                                        "default": "2025-12-08T13:58:16.440Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1544,7 +1582,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-07T13:40:05.627Z",
+                          "default": "2025-12-08T13:58:16.459Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -1623,7 +1661,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-07T13:40:05.608Z",
+                                        "default": "2025-12-08T13:58:16.440Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1702,7 +1740,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2025-12-07T13:40:05.626Z",
+                        "default": "2025-12-08T13:58:16.459Z",
                         "type": "string"
                       },
                       "heroGallery": {}
@@ -1815,7 +1853,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-07T13:40:05.629Z",
+                          "default": "2025-12-08T13:58:16.461Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -1894,7 +1932,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-07T13:40:05.608Z",
+                                        "default": "2025-12-08T13:58:16.440Z",
                                         "type": "string"
                                       },
                                       "related": {}

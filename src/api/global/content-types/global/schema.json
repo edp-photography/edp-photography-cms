@@ -32,6 +32,14 @@
     "googleMapsUrl": {
       "type": "string",
       "required": true
+    },
+    "instagram": {
+      "type": "string",
+      "required": true
+    },
+    "facebook": {
+      "type": "string",
+      "required": true
     }
   }
 }
