@@ -16,6 +16,12 @@
       "component": "blocks.hero-gallery",
       "repeatable": false,
       "required": true
+    },
+    "imageGallery": {
+      "type": "component",
+      "component": "blocks.image-gallery",
+      "repeatable": false,
+      "required": true
     }
   }
 }

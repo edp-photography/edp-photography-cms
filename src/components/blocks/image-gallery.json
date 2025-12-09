@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_image_galleries",
+  "info": {
+    "displayName": "Image Gallery",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "component": "elements.gallery-image",
+      "repeatable": true,
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}
