@@ -8,6 +8,7 @@ export interface BlocksHeroGallery extends Struct.ComponentSchema {
   };
   attributes: {
     images: Schema.Attribute.Component<'elements.gallery-image', true> &
+      Schema.Attribute.Required &
       Schema.Attribute.SetMinMax<
         {
           max: 10;

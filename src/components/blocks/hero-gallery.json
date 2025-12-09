@@ -10,6 +10,7 @@
       "type": "component",
       "component": "elements.gallery-image",
       "repeatable": true,
+      "required": true,
       "min": 1,
       "max": 10
     }

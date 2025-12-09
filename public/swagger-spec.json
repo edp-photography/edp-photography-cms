@@ -156,7 +156,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-09T15:49:09.302Z",
+                          "default": "2025-12-09T17:31:45.275Z",
                           "type": "string"
                         },
                         "seo": {
@@ -243,7 +243,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2025-12-09T15:49:09.311Z",
+                                  "default": "2025-12-09T17:31:45.282Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -337,7 +337,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2025-12-09T15:49:09.311Z",
+                                      "default": "2025-12-09T17:31:45.282Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -536,7 +536,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-09T15:49:09.320Z",
+                          "default": "2025-12-09T17:31:45.289Z",
                           "type": "string"
                         },
                         "seo": {
@@ -623,7 +623,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2025-12-09T15:49:09.311Z",
+                                  "default": "2025-12-09T17:31:45.282Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -717,7 +717,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2025-12-09T15:49:09.311Z",
+                                      "default": "2025-12-09T17:31:45.282Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -824,7 +824,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2025-12-09T15:49:09.318Z",
+                        "default": "2025-12-09T17:31:45.287Z",
                         "type": "string"
                       },
                       "seo": {}
@@ -963,7 +963,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-09T15:49:09.324Z",
+                          "default": "2025-12-09T17:31:45.291Z",
                           "type": "string"
                         },
                         "seo": {
@@ -1050,7 +1050,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2025-12-09T15:49:09.311Z",
+                                  "default": "2025-12-09T17:31:45.282Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -1144,7 +1144,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2025-12-09T15:49:09.311Z",
+                                      "default": "2025-12-09T17:31:45.282Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -1340,7 +1340,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-09T15:49:09.328Z",
+                          "default": "2025-12-09T17:31:45.294Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -1419,7 +1419,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-09T15:49:09.311Z",
+                                        "default": "2025-12-09T17:31:45.282Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1447,6 +1447,9 @@
                               }
                             }
                           },
+                          "required": [
+                            "images"
+                          ],
                           "additionalProperties": false
                         },
                         "imageGallery": {
@@ -1524,7 +1527,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-09T15:49:09.311Z",
+                                        "default": "2025-12-09T17:31:45.282Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1694,7 +1697,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-09T15:49:09.333Z",
+                          "default": "2025-12-09T17:31:45.298Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -1773,7 +1776,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-09T15:49:09.311Z",
+                                        "default": "2025-12-09T17:31:45.282Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1801,6 +1804,9 @@
                               }
                             }
                           },
+                          "required": [
+                            "images"
+                          ],
                           "additionalProperties": false
                         },
                         "imageGallery": {
@@ -1878,7 +1884,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-09T15:49:09.311Z",
+                                        "default": "2025-12-09T17:31:45.282Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1960,7 +1966,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2025-12-09T15:49:09.332Z",
+                        "default": "2025-12-09T17:31:45.297Z",
                         "type": "string"
                       },
                       "heroGallery": {},
@@ -2076,7 +2082,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2025-12-09T15:49:09.335Z",
+                          "default": "2025-12-09T17:31:45.299Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -2155,7 +2161,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-09T15:49:09.311Z",
+                                        "default": "2025-12-09T17:31:45.282Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2183,6 +2189,9 @@
                               }
                             }
                           },
+                          "required": [
+                            "images"
+                          ],
                           "additionalProperties": false
                         },
                         "imageGallery": {
@@ -2260,7 +2269,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2025-12-09T15:49:09.311Z",
+                                        "default": "2025-12-09T17:31:45.282Z",
                                         "type": "string"
                                       },
                                       "related": {}
