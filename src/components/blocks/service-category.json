@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_service_categories",
+  "info": {
+    "displayName": "Service Category",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "component": "shared.service",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

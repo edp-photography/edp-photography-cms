@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "included": {
+      "type": "text"
+    },
+    "notIncluded": {
+      "type": "text"
+    },
+    "notes": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

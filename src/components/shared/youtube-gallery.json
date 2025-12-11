@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_youtube_galleries",
+  "info": {
+    "displayName": "Youtube Gallery",
+    "icon": "television"
+  },
+  "options": {},
+  "attributes": {
+    "videos": {
+      "type": "component",
+      "component": "shared.youtube-embed",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

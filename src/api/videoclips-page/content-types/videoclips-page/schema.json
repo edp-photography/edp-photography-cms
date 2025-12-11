@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "videoclips_pages",
+  "info": {
+    "singularName": "videoclips-page",
+    "pluralName": "videoclips-pages",
+    "displayName": "Videoclips Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "youtubeGallery": {
+      "type": "component",
+      "component": "shared.youtube-gallery",
+      "repeatable": false
+    }
+  }
+}
