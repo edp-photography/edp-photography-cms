@@ -16,6 +16,11 @@
       "required": true,
       "unique": true
     },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service-category.service-category"
+    },
     "tagline": {
       "type": "text"
     },
