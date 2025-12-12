@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_promos",
+  "info": {
+    "displayName": "Promo",
+    "icon": "gift"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -31,8 +31,16 @@
     "notIncluded": {
       "type": "text"
     },
+    "addOns": {
+      "type": "text"
+    },
     "notes": {
       "type": "text"
+    },
+    "promo": {
+      "type": "component",
+      "component": "shared.promo",
+      "repeatable": false
     }
   },
   "config": {}

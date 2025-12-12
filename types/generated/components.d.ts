@@ -86,6 +86,18 @@ export interface SharedOpenGraph extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedPromo extends Struct.ComponentSchema {
+  collectionName: 'components_shared_promos';
+  info: {
+    displayName: 'Promo';
+    icon: 'gift';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedSeo extends Struct.ComponentSchema {
   collectionName: 'components_shared_seos';
   info: {
@@ -121,6 +133,7 @@ export interface SharedService extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
+    addOns: Schema.Attribute.Text;
     description: Schema.Attribute.Text;
     duration: Schema.Attribute.String;
     included: Schema.Attribute.Text;
@@ -128,6 +141,7 @@ export interface SharedService extends Struct.ComponentSchema {
     notes: Schema.Attribute.Text;
     notIncluded: Schema.Attribute.Text;
     price: Schema.Attribute.String;
+    promo: Schema.Attribute.Component<'shared.promo', false>;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
@@ -165,6 +179,7 @@ declare module '@strapi/strapi' {
       'blocks.service-category': BlocksServiceCategory;
       'elements.gallery-image': ElementsGalleryImage;
       'shared.open-graph': SharedOpenGraph;
+      'shared.promo': SharedPromo;
       'shared.seo': SharedSeo;
       'shared.service': SharedService;
       'shared.youtube-embed': SharedYoutubeEmbed;
