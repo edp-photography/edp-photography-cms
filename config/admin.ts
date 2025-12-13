@@ -54,10 +54,12 @@ const getPreviewPathname = (
 ): string | null => {
   // Map your single types to their front-end routes
   switch (uid) {
-    case "api::homepage.homepage":
+    case "api::home-page.home-page":
       return "/";
-    case "api::services.services":
+    case "api::services-page.services-page":
       return "/services";
+    case "api::videoclips-page.videoclips-page":
+      return "/videoclips";
     // Add more single types as needed
     // case "api::about.about":
     //   return "/about";
