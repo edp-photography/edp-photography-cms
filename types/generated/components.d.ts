@@ -50,6 +50,17 @@ export interface BlocksServiceCategory extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksYoutubeGallery extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_youtube_galleries';
+  info: {
+    displayName: 'Youtube Gallery';
+    icon: 'television';
+  };
+  attributes: {
+    youtubeEmbeds: Schema.Attribute.Component<'shared.youtube-embed', true>;
+  };
+}
+
 export interface ElementsGalleryImage extends Struct.ComponentSchema {
   collectionName: 'components_elements_gallery_images';
   info: {
@@ -155,19 +166,8 @@ export interface SharedYoutubeEmbed extends Struct.ComponentSchema {
   };
   attributes: {
     description: Schema.Attribute.Text;
-    title: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
     url: Schema.Attribute.String & Schema.Attribute.Required;
-  };
-}
-
-export interface SharedYoutubeGallery extends Struct.ComponentSchema {
-  collectionName: 'components_shared_youtube_galleries';
-  info: {
-    displayName: 'Youtube Gallery';
-    icon: 'television';
-  };
-  attributes: {
-    videos: Schema.Attribute.Component<'shared.youtube-embed', true>;
   };
 }
 
@@ -177,13 +177,13 @@ declare module '@strapi/strapi' {
       'blocks.hero-gallery': BlocksHeroGallery;
       'blocks.image-gallery': BlocksImageGallery;
       'blocks.service-category': BlocksServiceCategory;
+      'blocks.youtube-gallery': BlocksYoutubeGallery;
       'elements.gallery-image': ElementsGalleryImage;
       'shared.open-graph': SharedOpenGraph;
       'shared.promo': SharedPromo;
       'shared.seo': SharedSeo;
       'shared.service': SharedService;
       'shared.youtube-embed': SharedYoutubeEmbed;
-      'shared.youtube-gallery': SharedYoutubeGallery;
     }
   }
 }

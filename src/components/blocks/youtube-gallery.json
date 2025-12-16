@@ -1,12 +1,12 @@
 {
-  "collectionName": "components_shared_youtube_galleries",
+  "collectionName": "components_blocks_youtube_galleries",
   "info": {
     "displayName": "Youtube Gallery",
     "icon": "television"
   },
   "options": {},
   "attributes": {
-    "videos": {
+    "youtubeEmbeds": {
       "type": "component",
       "component": "shared.youtube-embed",
       "repeatable": true

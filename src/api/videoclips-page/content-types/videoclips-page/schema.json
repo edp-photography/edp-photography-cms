@@ -13,7 +13,7 @@
   "attributes": {
     "youtubeGallery": {
       "type": "component",
-      "component": "shared.youtube-gallery",
+      "component": "blocks.youtube-gallery",
       "repeatable": false
     }
   }
