@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "fashion_pages",
+  "info": {
+    "singularName": "fashion-page",
+    "pluralName": "fashion-pages",
+    "displayName": "Fashion Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageGallery": {
+      "type": "component",
+      "component": "blocks.image-gallery",
+      "repeatable": false
+    }
+  }
+}
