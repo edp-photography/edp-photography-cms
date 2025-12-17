@@ -621,6 +621,34 @@ export interface ApiVideoclipsPageVideoclipsPage
   };
 }
 
+export interface ApiWorkshopsPageWorkshopsPage extends Struct.SingleTypeSchema {
+  collectionName: 'workshops_pages';
+  info: {
+    displayName: 'Workshops Page';
+    pluralName: 'workshops-pages';
+    singularName: 'workshops-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::workshops-page.workshops-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -1137,6 +1165,7 @@ declare module '@strapi/strapi' {
       'api::home-page.home-page': ApiHomePageHomePage;
       'api::services-page.services-page': ApiServicesPageServicesPage;
       'api::videoclips-page.videoclips-page': ApiVideoclipsPageVideoclipsPage;
+      'api::workshops-page.workshops-page': ApiWorkshopsPageWorkshopsPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

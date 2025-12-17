@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "workshops_pages",
+  "info": {
+    "singularName": "workshops-page",
+    "pluralName": "workshops-pages",
+    "displayName": "Workshops Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageGallery": {
+      "type": "component",
+      "component": "blocks.image-gallery",
+      "repeatable": false
+    }
+  }
+}
