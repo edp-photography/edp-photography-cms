@@ -55,6 +55,8 @@ const getPreviewPathname = (
       return "/services";
     case "api::videoclips-page.videoclips-page":
       return "/videoclips";
+    case "api::fashion-page.fashion-page":
+      return "/fashion";
     default:
       return null;
   }
