@@ -495,6 +495,34 @@ export interface ApiFashionPageFashionPage extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiFineArtPageFineArtPage extends Struct.SingleTypeSchema {
+  collectionName: 'fine_art_pages';
+  info: {
+    displayName: 'Fine Art Page';
+    pluralName: 'fine-art-pages';
+    singularName: 'fine-art-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::fine-art-page.fine-art-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   collectionName: 'globals';
   info: {
@@ -1161,6 +1189,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::fashion-page.fashion-page': ApiFashionPageFashionPage;
+      'api::fine-art-page.fine-art-page': ApiFineArtPageFineArtPage;
       'api::global.global': ApiGlobalGlobal;
       'api::home-page.home-page': ApiHomePageHomePage;
       'api::services-page.services-page': ApiServicesPageServicesPage;
