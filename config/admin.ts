@@ -51,6 +51,8 @@ const getPreviewPathname = (
   switch (uid) {
     case "api::home-page.home-page":
       return "/";
+    case "api::about-page.about-page":
+      return "/about";
     case "api::services-page.services-page":
       return "/services";
     case "api::videoclips-page.videoclips-page":
