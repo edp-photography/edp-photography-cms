@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "x-powered-by": "strapi",
-  "x-strapi-version": "5.32.0",
+  "x-strapi-version": "5.33.1",
   "info": {
     "title": "edp-photography-cms",
     "description": "API documentation for edp-photography-cms v0.1.0",
@@ -49,13 +49,17 @@
                 {
                   "readOnly": true,
                   "type": "string",
-                  "enum": []
+                  "enum": [
+                    "imageGallery"
+                  ]
                 },
                 {
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "enum": []
+                    "enum": [
+                      "imageGallery"
+                    ]
                   }
                 }
               ]
@@ -117,7 +121,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "title": {
                           "type": "string"
@@ -135,8 +146,123 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.651Z",
+                          "default": "2026-01-11T12:49:47.610Z",
                           "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-11T12:49:47.617Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -215,13 +341,17 @@
                 {
                   "readOnly": true,
                   "type": "string",
-                  "enum": []
+                  "enum": [
+                    "imageGallery"
+                  ]
                 },
                 {
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "enum": []
+                    "enum": [
+                      "imageGallery"
+                    ]
                   }
                 }
               ]
@@ -261,7 +391,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "title": {
                           "type": "string"
@@ -279,8 +416,123 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.656Z",
+                          "default": "2026-01-11T12:49:47.622Z",
                           "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-11T12:49:47.617Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -338,9 +590,10 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.654Z",
+                        "default": "2026-01-11T12:49:47.620Z",
                         "type": "string"
-                      }
+                      },
+                      "imageGallery": {}
                     },
                     "additionalProperties": false
                   }
@@ -394,13 +647,17 @@
                 {
                   "readOnly": true,
                   "type": "string",
-                  "enum": []
+                  "enum": [
+                    "imageGallery"
+                  ]
                 },
                 {
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "enum": []
+                    "enum": [
+                      "imageGallery"
+                    ]
                   }
                 }
               ]
@@ -440,7 +697,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "title": {
                           "type": "string"
@@ -458,8 +722,123 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.658Z",
+                          "default": "2026-01-11T12:49:47.624Z",
                           "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-11T12:49:47.617Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -606,7 +985,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -615,7 +1001,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.661Z",
+                          "default": "2026-01-11T12:49:47.627Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -642,7 +1028,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -693,7 +1086,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -850,7 +1243,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -859,7 +1259,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.672Z",
+                          "default": "2026-01-11T12:49:47.630Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -886,7 +1286,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -937,7 +1344,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1017,7 +1424,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.671Z",
+                        "default": "2026-01-11T12:49:47.629Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -1121,7 +1528,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -1130,7 +1544,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.676Z",
+                          "default": "2026-01-11T12:49:47.634Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1157,7 +1571,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -1208,7 +1629,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1386,7 +1807,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -1395,7 +1823,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.679Z",
+                          "default": "2026-01-11T12:49:47.636Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1422,7 +1850,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -1473,7 +1908,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1630,7 +2065,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -1639,7 +2081,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.682Z",
+                          "default": "2026-01-11T12:49:47.639Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1666,7 +2108,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -1717,7 +2166,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1797,7 +2246,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.681Z",
+                        "default": "2026-01-11T12:49:47.638Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -1901,7 +2350,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -1910,7 +2366,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.683Z",
+                          "default": "2026-01-11T12:49:47.640Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1937,7 +2393,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -1988,7 +2451,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2178,7 +2641,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "email": {
                           "type": "string",
@@ -2207,7 +2677,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.687Z",
+                          "default": "2026-01-11T12:49:47.644Z",
                           "type": "string"
                         },
                         "seo": {
@@ -2243,7 +2713,14 @@
                                   "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                 },
                                 "id": {
-                                  "type": "number"
+                                  "anyOf": [
+                                    {
+                                      "type": "string"
+                                    },
+                                    {
+                                      "type": "number"
+                                    }
+                                  ]
                                 },
                                 "name": {
                                   "type": "string"
@@ -2294,7 +2771,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-03T10:16:23.668Z",
+                                  "default": "2026-01-11T12:49:47.617Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -2337,7 +2814,14 @@
                                       "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                     },
                                     "id": {
-                                      "type": "number"
+                                      "anyOf": [
+                                        {
+                                          "type": "string"
+                                        },
+                                        {
+                                          "type": "number"
+                                        }
+                                      ]
                                     },
                                     "name": {
                                       "type": "string"
@@ -2388,7 +2872,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-03T10:16:23.668Z",
+                                      "default": "2026-01-11T12:49:47.617Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -2558,7 +3042,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "email": {
                           "type": "string",
@@ -2587,7 +3078,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.693Z",
+                          "default": "2026-01-11T12:49:47.650Z",
                           "type": "string"
                         },
                         "seo": {
@@ -2623,7 +3114,14 @@
                                   "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                 },
                                 "id": {
-                                  "type": "number"
+                                  "anyOf": [
+                                    {
+                                      "type": "string"
+                                    },
+                                    {
+                                      "type": "number"
+                                    }
+                                  ]
                                 },
                                 "name": {
                                   "type": "string"
@@ -2674,7 +3172,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-03T10:16:23.668Z",
+                                  "default": "2026-01-11T12:49:47.617Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -2717,7 +3215,14 @@
                                       "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                     },
                                     "id": {
-                                      "type": "number"
+                                      "anyOf": [
+                                        {
+                                          "type": "string"
+                                        },
+                                        {
+                                          "type": "number"
+                                        }
+                                      ]
                                     },
                                     "name": {
                                       "type": "string"
@@ -2768,7 +3273,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-03T10:16:23.668Z",
+                                      "default": "2026-01-11T12:49:47.617Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -2875,7 +3380,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.692Z",
+                        "default": "2026-01-11T12:49:47.648Z",
                         "type": "string"
                       },
                       "seo": {}
@@ -2985,7 +3490,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "email": {
                           "type": "string",
@@ -3014,7 +3526,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.695Z",
+                          "default": "2026-01-11T12:49:47.652Z",
                           "type": "string"
                         },
                         "seo": {
@@ -3050,7 +3562,14 @@
                                   "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                 },
                                 "id": {
-                                  "type": "number"
+                                  "anyOf": [
+                                    {
+                                      "type": "string"
+                                    },
+                                    {
+                                      "type": "number"
+                                    }
+                                  ]
                                 },
                                 "name": {
                                   "type": "string"
@@ -3101,7 +3620,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-03T10:16:23.668Z",
+                                  "default": "2026-01-11T12:49:47.617Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -3144,7 +3663,14 @@
                                       "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                     },
                                     "id": {
-                                      "type": "number"
+                                      "anyOf": [
+                                        {
+                                          "type": "string"
+                                        },
+                                        {
+                                          "type": "number"
+                                        }
+                                      ]
                                     },
                                     "name": {
                                       "type": "string"
@@ -3195,7 +3721,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-03T10:16:23.668Z",
+                                      "default": "2026-01-11T12:49:47.617Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -3382,7 +3908,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -3391,7 +3924,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.698Z",
+                          "default": "2026-01-11T12:49:47.654Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -3419,7 +3952,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -3470,7 +4010,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3527,7 +4067,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -3578,7 +4125,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3739,7 +4286,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -3748,7 +4302,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.704Z",
+                          "default": "2026-01-11T12:49:47.660Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -3776,7 +4330,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -3827,7 +4388,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3884,7 +4445,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -3935,7 +4503,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4017,7 +4585,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.700Z",
+                        "default": "2026-01-11T12:49:47.660Z",
                         "type": "string"
                       },
                       "heroGallery": {},
@@ -4124,7 +4692,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -4133,7 +4708,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.706Z",
+                          "default": "2026-01-11T12:49:47.662Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -4161,7 +4736,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -4212,7 +4794,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4269,7 +4851,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -4320,7 +4909,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4500,7 +5089,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -4509,7 +5105,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.708Z",
+                          "default": "2026-01-11T12:49:47.664Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -4711,7 +5307,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -4720,7 +5323,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.713Z",
+                          "default": "2026-01-11T12:49:47.668Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -4845,7 +5448,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.712Z",
+                        "default": "2026-01-11T12:49:47.668Z",
                         "type": "string"
                       },
                       "serviceCategories": {
@@ -4952,7 +5555,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -4961,7 +5571,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.714Z",
+                          "default": "2026-01-11T12:49:47.670Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -5184,7 +5794,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -5193,7 +5810,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.717Z",
+                          "default": "2026-01-11T12:49:47.672Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -5348,7 +5965,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -5357,7 +5981,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.720Z",
+                          "default": "2026-01-11T12:49:47.675Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -5435,7 +6059,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.719Z",
+                        "default": "2026-01-11T12:49:47.674Z",
                         "type": "string"
                       },
                       "youtubeGallery": {}
@@ -5539,7 +6163,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -5548,7 +6179,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.721Z",
+                          "default": "2026-01-11T12:49:47.676Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -5724,7 +6355,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -5733,7 +6371,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.725Z",
+                          "default": "2026-01-11T12:49:47.679Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -5760,7 +6398,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -5811,7 +6456,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5968,7 +6613,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -5977,7 +6629,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.728Z",
+                          "default": "2026-01-11T12:49:47.681Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -6004,7 +6656,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -6055,7 +6714,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6135,7 +6794,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-03T10:16:23.727Z",
+                        "default": "2026-01-11T12:49:47.680Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -6239,7 +6898,14 @@
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                         },
                         "id": {
-                          "type": "number"
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
                         },
                         "createdAt": {
                           "type": "string"
@@ -6248,7 +6914,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-03T10:16:23.730Z",
+                          "default": "2026-01-11T12:49:47.686Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -6275,7 +6941,14 @@
                                         "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
                                       },
                                       "id": {
-                                        "type": "number"
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
                                       },
                                       "name": {
                                         "type": "string"
@@ -6326,7 +6999,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-03T10:16:23.668Z",
+                                        "default": "2026-01-11T12:49:47.617Z",
                                         "type": "string"
                                       },
                                       "related": {}
