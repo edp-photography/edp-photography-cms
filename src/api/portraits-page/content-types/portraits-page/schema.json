@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "portraits_pages",
+  "info": {
+    "singularName": "portraits-page",
+    "pluralName": "portraits-pages",
+    "displayName": "Portraits Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageGallery": {
+      "type": "component",
+      "component": "blocks.image-gallery",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

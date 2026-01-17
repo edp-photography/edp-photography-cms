@@ -620,6 +620,35 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiPortraitsPagePortraitsPage extends Struct.SingleTypeSchema {
+  collectionName: 'portraits_pages';
+  info: {
+    displayName: 'Portraits Page';
+    pluralName: 'portraits-pages';
+    singularName: 'portraits-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false> &
+      Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::portraits-page.portraits-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiServicesPageServicesPage extends Struct.SingleTypeSchema {
   collectionName: 'services_pages';
   info: {
@@ -645,6 +674,35 @@ export interface ApiServicesPageServicesPage extends Struct.SingleTypeSchema {
       'blocks.service-category',
       true
     >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiTravelPageTravelPage extends Struct.SingleTypeSchema {
+  collectionName: 'travel_pages';
+  info: {
+    displayName: 'Travel Page';
+    pluralName: 'travel-pages';
+    singularName: 'travel-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false> &
+      Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::travel-page.travel-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1224,7 +1282,9 @@ declare module '@strapi/strapi' {
       'api::fine-art-page.fine-art-page': ApiFineArtPageFineArtPage;
       'api::global.global': ApiGlobalGlobal;
       'api::home-page.home-page': ApiHomePageHomePage;
+      'api::portraits-page.portraits-page': ApiPortraitsPagePortraitsPage;
       'api::services-page.services-page': ApiServicesPageServicesPage;
+      'api::travel-page.travel-page': ApiTravelPageTravelPage;
       'api::videoclips-page.videoclips-page': ApiVideoclipsPageVideoclipsPage;
       'api::workshops-page.workshops-page': ApiWorkshopsPageWorkshopsPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "travel_pages",
+  "info": {
+    "singularName": "travel-page",
+    "pluralName": "travel-pages",
+    "displayName": "Travel Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageGallery": {
+      "type": "component",
+      "component": "blocks.image-gallery",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

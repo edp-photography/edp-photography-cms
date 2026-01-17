@@ -146,7 +146,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.743Z",
+                          "default": "2026-01-17T14:02:35.568Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -231,7 +231,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -416,7 +416,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.754Z",
+                          "default": "2026-01-17T14:02:35.579Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -501,7 +501,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -590,7 +590,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.753Z",
+                        "default": "2026-01-17T14:02:35.578Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -722,7 +722,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.757Z",
+                          "default": "2026-01-17T14:02:35.582Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -807,7 +807,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1001,7 +1001,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.760Z",
+                          "default": "2026-01-17T14:02:35.585Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1086,7 +1086,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1259,7 +1259,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.763Z",
+                          "default": "2026-01-17T14:02:35.587Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1344,7 +1344,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1424,7 +1424,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.762Z",
+                        "default": "2026-01-17T14:02:35.587Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -1544,7 +1544,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.767Z",
+                          "default": "2026-01-17T14:02:35.591Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1629,7 +1629,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1823,7 +1823,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.769Z",
+                          "default": "2026-01-17T14:02:35.593Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1908,7 +1908,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2081,7 +2081,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.772Z",
+                          "default": "2026-01-17T14:02:35.596Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2166,7 +2166,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2246,7 +2246,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.771Z",
+                        "default": "2026-01-17T14:02:35.595Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -2366,7 +2366,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.773Z",
+                          "default": "2026-01-17T14:02:35.597Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2451,7 +2451,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2677,7 +2677,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.777Z",
+                          "default": "2026-01-17T14:02:35.601Z",
                           "type": "string"
                         },
                         "seo": {
@@ -2771,7 +2771,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-11T14:17:14.749Z",
+                                  "default": "2026-01-17T14:02:35.574Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -2872,7 +2872,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-11T14:17:14.749Z",
+                                      "default": "2026-01-17T14:02:35.574Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -3078,7 +3078,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.783Z",
+                          "default": "2026-01-17T14:02:35.607Z",
                           "type": "string"
                         },
                         "seo": {
@@ -3172,7 +3172,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-11T14:17:14.749Z",
+                                  "default": "2026-01-17T14:02:35.574Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -3273,7 +3273,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-11T14:17:14.749Z",
+                                      "default": "2026-01-17T14:02:35.574Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -3380,7 +3380,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.781Z",
+                        "default": "2026-01-17T14:02:35.605Z",
                         "type": "string"
                       },
                       "seo": {}
@@ -3526,7 +3526,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.785Z",
+                          "default": "2026-01-17T14:02:35.609Z",
                           "type": "string"
                         },
                         "seo": {
@@ -3620,7 +3620,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-11T14:17:14.749Z",
+                                  "default": "2026-01-17T14:02:35.574Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -3721,7 +3721,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-11T14:17:14.749Z",
+                                      "default": "2026-01-17T14:02:35.574Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -3924,7 +3924,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.787Z",
+                          "default": "2026-01-17T14:02:35.612Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -4010,7 +4010,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4125,7 +4125,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4302,7 +4302,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.793Z",
+                          "default": "2026-01-17T14:02:35.618Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -4388,7 +4388,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4503,7 +4503,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4585,7 +4585,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.792Z",
+                        "default": "2026-01-17T14:02:35.617Z",
                         "type": "string"
                       },
                       "heroGallery": {},
@@ -4708,7 +4708,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.795Z",
+                          "default": "2026-01-17T14:02:35.619Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -4794,7 +4794,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4909,7 +4909,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4979,6 +4979,831 @@
         },
         "tags": [
           "home-page"
+        ]
+      }
+    },
+    "/portraits-page": {
+      "get": {
+        "operationId": "portraits-page/get/portraits_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-01-17T14:02:35.622Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-17T14:02:35.574Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "portraits-page"
+        ]
+      },
+      "put": {
+        "operationId": "portraits-page/put/portraits_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-01-17T14:02:35.624Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-17T14:02:35.574Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "portraits-page"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "publishedAt": {
+                        "default": "2026-01-17T14:02:35.623Z",
+                        "type": "string"
+                      },
+                      "imageGallery": {}
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "portraits-page/delete/portraits_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-01-17T14:02:35.625Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-17T14:02:35.574Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "portraits-page"
         ]
       }
     },
@@ -5105,7 +5930,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.797Z",
+                          "default": "2026-01-17T14:02:35.627Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -5323,7 +6148,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.801Z",
+                          "default": "2026-01-17T14:02:35.631Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -5448,7 +6273,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.801Z",
+                        "default": "2026-01-17T14:02:35.631Z",
                         "type": "string"
                       },
                       "serviceCategories": {
@@ -5571,7 +6396,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.803Z",
+                          "default": "2026-01-17T14:02:35.633Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -5684,6 +6509,831 @@
         },
         "tags": [
           "services-page"
+        ]
+      }
+    },
+    "/travel-page": {
+      "get": {
+        "operationId": "travel-page/get/travel_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-01-17T14:02:35.636Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-17T14:02:35.574Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "travel-page"
+        ]
+      },
+      "put": {
+        "operationId": "travel-page/put/travel_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-01-17T14:02:35.638Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-17T14:02:35.574Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "travel-page"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "publishedAt": {
+                        "default": "2026-01-17T14:02:35.637Z",
+                        "type": "string"
+                      },
+                      "imageGallery": {}
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "travel-page/delete/travel_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-01-17T14:02:35.642Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-01-17T14:02:35.574Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "travel-page"
         ]
       }
     },
@@ -5810,7 +7460,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.805Z",
+                          "default": "2026-01-17T14:02:35.644Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -5981,7 +7631,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.808Z",
+                          "default": "2026-01-17T14:02:35.647Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -6059,7 +7709,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.807Z",
+                        "default": "2026-01-17T14:02:35.646Z",
                         "type": "string"
                       },
                       "youtubeGallery": {}
@@ -6179,7 +7829,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.809Z",
+                          "default": "2026-01-17T14:02:35.648Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -6371,7 +8021,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.812Z",
+                          "default": "2026-01-17T14:02:35.651Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -6456,7 +8106,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6629,7 +8279,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.814Z",
+                          "default": "2026-01-17T14:02:35.653Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -6714,7 +8364,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6794,7 +8444,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-11T14:17:14.813Z",
+                        "default": "2026-01-17T14:02:35.652Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -6914,7 +8564,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-11T14:17:14.819Z",
+                          "default": "2026-01-17T14:02:35.654Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -6999,7 +8649,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-11T14:17:14.749Z",
+                                        "default": "2026-01-17T14:02:35.574Z",
                                         "type": "string"
                                       },
                                       "related": {}

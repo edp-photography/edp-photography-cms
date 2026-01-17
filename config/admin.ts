@@ -46,7 +46,7 @@ export default ({ env }) => {
 
 const getPreviewPathname = (
   uid: string,
-  { locale, document }: { locale?: string; document: any }
+  { locale, document }: { locale?: string; document: any },
 ): string | null => {
   switch (uid) {
     case "api::home-page.home-page":
@@ -61,6 +61,10 @@ const getPreviewPathname = (
       return "/fashion";
     case "api::fine-art-page.fine-art-page":
       return "/fine-art";
+    case "api::portraits-page.portraits-page":
+      return "/portraits";
+    case "api::travel-page.travel-page":
+      return "/travel";
     case "api::workshops-page.workshops-page":
       return "/workshops";
     default:
