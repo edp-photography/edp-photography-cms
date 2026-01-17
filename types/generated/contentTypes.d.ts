@@ -583,6 +583,35 @@ export interface ApiFineArtPageFineArtPage extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiGlamourPageGlamourPage extends Struct.SingleTypeSchema {
+  collectionName: 'glamour_pages';
+  info: {
+    displayName: 'Glamour Page';
+    pluralName: 'glamour-pages';
+    singularName: 'glamour-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false> &
+      Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::glamour-page.glamour-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   collectionName: 'globals';
   info: {
@@ -1310,6 +1339,7 @@ declare module '@strapi/strapi' {
       'api::calendars-page.calendars-page': ApiCalendarsPageCalendarsPage;
       'api::fashion-page.fashion-page': ApiFashionPageFashionPage;
       'api::fine-art-page.fine-art-page': ApiFineArtPageFineArtPage;
+      'api::glamour-page.glamour-page': ApiGlamourPageGlamourPage;
       'api::global.global': ApiGlobalGlobal;
       'api::home-page.home-page': ApiHomePageHomePage;
       'api::portraits-page.portraits-page': ApiPortraitsPagePortraitsPage;

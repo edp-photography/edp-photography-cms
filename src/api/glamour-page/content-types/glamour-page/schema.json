@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "glamour_pages",
+  "info": {
+    "singularName": "glamour-page",
+    "pluralName": "glamour-pages",
+    "displayName": "Glamour Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageGallery": {
+      "type": "component",
+      "component": "blocks.image-gallery",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}
