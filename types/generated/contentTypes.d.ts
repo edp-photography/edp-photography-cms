@@ -498,6 +498,35 @@ export interface ApiAboutPageAboutPage extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiCalendarsPageCalendarsPage extends Struct.SingleTypeSchema {
+  collectionName: 'calendars_pages';
+  info: {
+    displayName: 'Calendars Page';
+    pluralName: 'calendars-pages';
+    singularName: 'calendars-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false> &
+      Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::calendars-page.calendars-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiFashionPageFashionPage extends Struct.SingleTypeSchema {
   collectionName: 'fashion_pages';
   info: {
@@ -1278,6 +1307,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::about-page.about-page': ApiAboutPageAboutPage;
+      'api::calendars-page.calendars-page': ApiCalendarsPageCalendarsPage;
       'api::fashion-page.fashion-page': ApiFashionPageFashionPage;
       'api::fine-art-page.fine-art-page': ApiFineArtPageFineArtPage;
       'api::global.global': ApiGlobalGlobal;
