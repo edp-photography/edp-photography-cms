@@ -796,6 +796,35 @@ export interface ApiVideoclipsPageVideoclipsPage
   };
 }
 
+export interface ApiWeddingsPageWeddingsPage extends Struct.SingleTypeSchema {
+  collectionName: 'weddings_pages';
+  info: {
+    displayName: 'Weddings Page';
+    pluralName: 'weddings-pages';
+    singularName: 'weddings-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    imageGallery: Schema.Attribute.Component<'blocks.image-gallery', false> &
+      Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::weddings-page.weddings-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiWorkshopsPageWorkshopsPage extends Struct.SingleTypeSchema {
   collectionName: 'workshops_pages';
   info: {
@@ -1346,6 +1375,7 @@ declare module '@strapi/strapi' {
       'api::services-page.services-page': ApiServicesPageServicesPage;
       'api::travel-page.travel-page': ApiTravelPageTravelPage;
       'api::videoclips-page.videoclips-page': ApiVideoclipsPageVideoclipsPage;
+      'api::weddings-page.weddings-page': ApiWeddingsPageWeddingsPage;
       'api::workshops-page.workshops-page': ApiWorkshopsPageWorkshopsPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

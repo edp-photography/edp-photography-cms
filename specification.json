@@ -146,7 +146,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.042Z",
+                          "default": "2026-02-08T15:13:17.707Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -231,7 +231,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -416,7 +416,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.055Z",
+                          "default": "2026-02-08T15:13:17.722Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -501,7 +501,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -590,7 +590,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.053Z",
+                        "default": "2026-02-08T15:13:17.721Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -722,7 +722,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.057Z",
+                          "default": "2026-02-08T15:13:17.725Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -807,7 +807,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1001,7 +1001,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.061Z",
+                          "default": "2026-02-08T15:13:17.728Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1086,7 +1086,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1260,7 +1260,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.064Z",
+                          "default": "2026-02-08T15:13:17.731Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1345,7 +1345,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1426,7 +1426,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.063Z",
+                        "default": "2026-02-08T15:13:17.730Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -1546,7 +1546,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.068Z",
+                          "default": "2026-02-08T15:13:17.732Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1631,7 +1631,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1826,7 +1826,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.070Z",
+                          "default": "2026-02-08T15:13:17.735Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1911,7 +1911,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2084,7 +2084,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.073Z",
+                          "default": "2026-02-08T15:13:17.737Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2169,7 +2169,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2249,7 +2249,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.072Z",
+                        "default": "2026-02-08T15:13:17.737Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -2369,7 +2369,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.075Z",
+                          "default": "2026-02-08T15:13:17.739Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2454,7 +2454,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2648,7 +2648,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.078Z",
+                          "default": "2026-02-08T15:13:17.741Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2733,7 +2733,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2906,7 +2906,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.080Z",
+                          "default": "2026-02-08T15:13:17.744Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2991,7 +2991,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3071,7 +3071,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.079Z",
+                        "default": "2026-02-08T15:13:17.743Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -3191,7 +3191,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.082Z",
+                          "default": "2026-02-08T15:13:17.746Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3276,7 +3276,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3470,7 +3470,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.084Z",
+                          "default": "2026-02-08T15:13:17.751Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3555,7 +3555,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3729,7 +3729,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.087Z",
+                          "default": "2026-02-08T15:13:17.753Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3814,7 +3814,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3895,7 +3895,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.086Z",
+                        "default": "2026-02-08T15:13:17.753Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -4015,7 +4015,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.088Z",
+                          "default": "2026-02-08T15:13:17.755Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -4100,7 +4100,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4327,7 +4327,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.095Z",
+                          "default": "2026-02-08T15:13:17.759Z",
                           "type": "string"
                         },
                         "seo": {
@@ -4421,7 +4421,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-17T15:52:51.049Z",
+                                  "default": "2026-02-08T15:13:17.714Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -4522,7 +4522,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-17T15:52:51.049Z",
+                                      "default": "2026-02-08T15:13:17.714Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -4728,7 +4728,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.101Z",
+                          "default": "2026-02-08T15:13:17.765Z",
                           "type": "string"
                         },
                         "seo": {
@@ -4822,7 +4822,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-17T15:52:51.049Z",
+                                  "default": "2026-02-08T15:13:17.714Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -4923,7 +4923,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-17T15:52:51.049Z",
+                                      "default": "2026-02-08T15:13:17.714Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -5030,7 +5030,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.100Z",
+                        "default": "2026-02-08T15:13:17.763Z",
                         "type": "string"
                       },
                       "seo": {}
@@ -5176,7 +5176,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.104Z",
+                          "default": "2026-02-08T15:13:17.767Z",
                           "type": "string"
                         },
                         "seo": {
@@ -5270,7 +5270,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-01-17T15:52:51.049Z",
+                                  "default": "2026-02-08T15:13:17.714Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -5371,7 +5371,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-01-17T15:52:51.049Z",
+                                      "default": "2026-02-08T15:13:17.714Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -5574,7 +5574,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.107Z",
+                          "default": "2026-02-08T15:13:17.770Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -5660,7 +5660,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5775,7 +5775,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5952,7 +5952,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.110Z",
+                          "default": "2026-02-08T15:13:17.773Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -6038,7 +6038,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6153,7 +6153,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6235,7 +6235,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.109Z",
+                        "default": "2026-02-08T15:13:17.772Z",
                         "type": "string"
                       },
                       "heroGallery": {},
@@ -6358,7 +6358,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.112Z",
+                          "default": "2026-02-08T15:13:17.778Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -6444,7 +6444,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6559,7 +6559,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6755,7 +6755,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.115Z",
+                          "default": "2026-02-08T15:13:17.781Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -6840,7 +6840,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7014,7 +7014,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.117Z",
+                          "default": "2026-02-08T15:13:17.784Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -7099,7 +7099,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7180,7 +7180,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.116Z",
+                        "default": "2026-02-08T15:13:17.783Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -7300,7 +7300,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.119Z",
+                          "default": "2026-02-08T15:13:17.786Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -7385,7 +7385,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7580,7 +7580,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.125Z",
+                          "default": "2026-02-08T15:13:17.789Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -7798,7 +7798,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.131Z",
+                          "default": "2026-02-08T15:13:17.794Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -7923,7 +7923,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.130Z",
+                        "default": "2026-02-08T15:13:17.793Z",
                         "type": "string"
                       },
                       "serviceCategories": {
@@ -8046,7 +8046,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.133Z",
+                          "default": "2026-02-08T15:13:17.795Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -8285,7 +8285,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.136Z",
+                          "default": "2026-02-08T15:13:17.798Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -8370,7 +8370,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8544,7 +8544,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.139Z",
+                          "default": "2026-02-08T15:13:17.800Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -8629,7 +8629,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8710,7 +8710,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.138Z",
+                        "default": "2026-02-08T15:13:17.799Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -8830,7 +8830,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.141Z",
+                          "default": "2026-02-08T15:13:17.801Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -8915,7 +8915,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9110,7 +9110,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.145Z",
+                          "default": "2026-02-08T15:13:17.806Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -9281,7 +9281,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.150Z",
+                          "default": "2026-02-08T15:13:17.810Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -9359,7 +9359,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.148Z",
+                        "default": "2026-02-08T15:13:17.809Z",
                         "type": "string"
                       },
                       "youtubeGallery": {}
@@ -9479,7 +9479,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.152Z",
+                          "default": "2026-02-08T15:13:17.812Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -9545,6 +9545,831 @@
         },
         "tags": [
           "videoclips-page"
+        ]
+      }
+    },
+    "/weddings-page": {
+      "get": {
+        "operationId": "weddings-page/get/weddings_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-02-08T15:13:17.814Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "weddings-page"
+        ]
+      },
+      "put": {
+        "operationId": "weddings-page/put/weddings_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-02-08T15:13:17.816Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "weddings-page"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "publishedAt": {
+                        "default": "2026-02-08T15:13:17.816Z",
+                        "type": "string"
+                      },
+                      "imageGallery": {}
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "weddings-page/delete/weddings_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "imageGallery"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "imageGallery"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-02-08T15:13:17.818Z",
+                          "type": "string"
+                        },
+                        "imageGallery": {
+                          "type": "object",
+                          "properties": {
+                            "images": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "object",
+                                    "properties": {
+                                      "documentId": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                      },
+                                      "id": {
+                                        "anyOf": [
+                                          {
+                                            "type": "string"
+                                          },
+                                          {
+                                            "type": "number"
+                                          }
+                                        ]
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      },
+                                      "alternativeText": {
+                                        "type": "string"
+                                      },
+                                      "caption": {
+                                        "type": "string"
+                                      },
+                                      "width": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "height": {
+                                        "type": "integer",
+                                        "minimum": -9007199254740991,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "formats": {},
+                                      "hash": {
+                                        "type": "string"
+                                      },
+                                      "ext": {
+                                        "type": "string"
+                                      },
+                                      "mime": {
+                                        "type": "string"
+                                      },
+                                      "size": {
+                                        "type": "number"
+                                      },
+                                      "url": {
+                                        "type": "string"
+                                      },
+                                      "previewUrl": {
+                                        "type": "string"
+                                      },
+                                      "provider": {
+                                        "type": "string"
+                                      },
+                                      "provider_metadata": {},
+                                      "createdAt": {
+                                        "type": "string"
+                                      },
+                                      "updatedAt": {
+                                        "type": "string"
+                                      },
+                                      "publishedAt": {
+                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "type": "string"
+                                      },
+                                      "related": {}
+                                    },
+                                    "required": [
+                                      "documentId",
+                                      "id",
+                                      "name",
+                                      "hash",
+                                      "mime",
+                                      "size",
+                                      "url",
+                                      "provider",
+                                      "publishedAt",
+                                      "related"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "title",
+                                  "image"
+                                ],
+                                "additionalProperties": false
+                              }
+                            }
+                          },
+                          "required": [
+                            "images"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "publishedAt",
+                        "imageGallery"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "weddings-page"
         ]
       }
     },
@@ -9671,7 +10496,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.157Z",
+                          "default": "2026-02-08T15:13:17.820Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -9756,7 +10581,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9929,7 +10754,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.166Z",
+                          "default": "2026-02-08T15:13:17.822Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -10014,7 +10839,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10094,7 +10919,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-01-17T15:52:51.165Z",
+                        "default": "2026-02-08T15:13:17.822Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -10214,7 +11039,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-01-17T15:52:51.168Z",
+                          "default": "2026-02-08T15:13:17.824Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -10299,7 +11124,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-01-17T15:52:51.049Z",
+                                        "default": "2026-02-08T15:13:17.714Z",
                                         "type": "string"
                                       },
                                       "related": {}

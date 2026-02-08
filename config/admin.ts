@@ -69,6 +69,8 @@ const getPreviewPathname = (
       return "/workshops";
     case "api::glamour-page.glamour-page":
       return "/glamour";
+    case "api::weddings-page.weddings-page":
+      return "/weddings";
     case "api::calendars-page.calendars-page":
       return "/calendars";
     default:

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "weddings_pages",
+  "info": {
+    "singularName": "weddings-page",
+    "pluralName": "weddings-pages",
+    "displayName": "Weddings Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageGallery": {
+      "type": "component",
+      "component": "blocks.image-gallery",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}
