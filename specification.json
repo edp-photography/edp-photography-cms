@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "x-powered-by": "strapi",
-  "x-strapi-version": "5.33.3",
+  "x-strapi-version": "5.38.0",
   "info": {
     "title": "edp-photography-cms",
     "description": "API documentation for edp-photography-cms v0.1.0",
@@ -101,6 +101,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -146,7 +167,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.707Z",
+                          "default": "2026-03-07T14:02:06.349Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -191,6 +212,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -231,7 +253,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -252,7 +274,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -371,6 +392,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -416,7 +458,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.722Z",
+                          "default": "2026-03-07T14:02:06.363Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -461,6 +503,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -501,7 +544,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -522,7 +565,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -590,7 +632,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.721Z",
+                        "default": "2026-03-07T14:02:06.360Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -677,6 +719,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -722,7 +785,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.725Z",
+                          "default": "2026-03-07T14:02:06.366Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -767,6 +830,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -807,7 +871,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -828,7 +892,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -965,6 +1028,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1001,7 +1085,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.728Z",
+                          "default": "2026-03-07T14:02:06.369Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1046,6 +1130,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -1086,7 +1171,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1107,7 +1192,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -1224,6 +1308,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1260,7 +1365,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.731Z",
+                          "default": "2026-03-07T14:02:06.371Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1305,6 +1410,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -1345,7 +1451,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1366,7 +1472,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -1426,7 +1531,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.730Z",
+                        "default": "2026-03-07T14:02:06.371Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -1510,6 +1615,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1546,7 +1672,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.732Z",
+                          "default": "2026-03-07T14:02:06.373Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1591,6 +1717,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -1631,7 +1758,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1652,7 +1779,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -1790,6 +1916,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1826,7 +1973,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.735Z",
+                          "default": "2026-03-07T14:02:06.377Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1871,6 +2018,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -1911,7 +2059,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1932,7 +2080,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -2048,6 +2195,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -2084,7 +2252,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.737Z",
+                          "default": "2026-03-07T14:02:06.380Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2129,6 +2297,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -2169,7 +2338,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2190,7 +2359,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -2249,7 +2417,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.737Z",
+                        "default": "2026-03-07T14:02:06.379Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -2333,6 +2501,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -2369,7 +2558,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.739Z",
+                          "default": "2026-03-07T14:02:06.382Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2414,6 +2603,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -2454,7 +2644,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2475,7 +2665,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -2612,6 +2801,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -2648,7 +2858,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.741Z",
+                          "default": "2026-03-07T14:02:06.385Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2693,6 +2903,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -2733,7 +2944,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2754,7 +2965,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -2870,6 +3080,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -2906,7 +3137,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.744Z",
+                          "default": "2026-03-07T14:02:06.388Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2951,6 +3182,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -2991,7 +3223,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3012,7 +3244,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -3071,7 +3302,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.743Z",
+                        "default": "2026-03-07T14:02:06.387Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -3155,6 +3386,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -3191,7 +3443,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.746Z",
+                          "default": "2026-03-07T14:02:06.390Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3236,6 +3488,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -3276,7 +3529,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3297,7 +3550,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -3434,6 +3686,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -3470,7 +3743,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.751Z",
+                          "default": "2026-03-07T14:02:06.397Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3515,6 +3788,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -3555,7 +3829,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3576,7 +3850,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -3693,6 +3966,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -3729,7 +4023,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.753Z",
+                          "default": "2026-03-07T14:02:06.400Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3774,6 +4068,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -3814,7 +4109,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3835,7 +4130,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -3895,7 +4189,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.753Z",
+                        "default": "2026-03-07T14:02:06.399Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -3979,6 +4273,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -4015,7 +4330,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.755Z",
+                          "default": "2026-03-07T14:02:06.402Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -4060,6 +4375,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -4100,7 +4416,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4121,7 +4437,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -4271,6 +4586,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -4327,7 +4663,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.759Z",
+                          "default": "2026-03-07T14:02:06.406Z",
                           "type": "string"
                         },
                         "seo": {
@@ -4381,6 +4717,7 @@
                                 "caption": {
                                   "type": "string"
                                 },
+                                "focalPoint": {},
                                 "width": {
                                   "type": "integer",
                                   "minimum": -9007199254740991,
@@ -4421,7 +4758,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-02-08T15:13:17.714Z",
+                                  "default": "2026-03-07T14:02:06.356Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -4482,6 +4819,7 @@
                                     "caption": {
                                       "type": "string"
                                     },
+                                    "focalPoint": {},
                                     "width": {
                                       "type": "integer",
                                       "minimum": -9007199254740991,
@@ -4522,7 +4860,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-08T15:13:17.714Z",
+                                      "default": "2026-03-07T14:02:06.356Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -4672,6 +5010,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -4728,7 +5087,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.765Z",
+                          "default": "2026-03-07T14:02:06.414Z",
                           "type": "string"
                         },
                         "seo": {
@@ -4782,6 +5141,7 @@
                                 "caption": {
                                   "type": "string"
                                 },
+                                "focalPoint": {},
                                 "width": {
                                   "type": "integer",
                                   "minimum": -9007199254740991,
@@ -4822,7 +5182,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-02-08T15:13:17.714Z",
+                                  "default": "2026-03-07T14:02:06.356Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -4883,6 +5243,7 @@
                                     "caption": {
                                       "type": "string"
                                     },
+                                    "focalPoint": {},
                                     "width": {
                                       "type": "integer",
                                       "minimum": -9007199254740991,
@@ -4923,7 +5284,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-08T15:13:17.714Z",
+                                      "default": "2026-03-07T14:02:06.356Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -5030,7 +5391,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.763Z",
+                        "default": "2026-03-07T14:02:06.412Z",
                         "type": "string"
                       },
                       "seo": {}
@@ -5120,6 +5481,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -5176,7 +5558,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.767Z",
+                          "default": "2026-03-07T14:02:06.416Z",
                           "type": "string"
                         },
                         "seo": {
@@ -5230,6 +5612,7 @@
                                 "caption": {
                                   "type": "string"
                                 },
+                                "focalPoint": {},
                                 "width": {
                                   "type": "integer",
                                   "minimum": -9007199254740991,
@@ -5270,7 +5653,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-02-08T15:13:17.714Z",
+                                  "default": "2026-03-07T14:02:06.356Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -5331,6 +5714,7 @@
                                     "caption": {
                                       "type": "string"
                                     },
+                                    "focalPoint": {},
                                     "width": {
                                       "type": "integer",
                                       "minimum": -9007199254740991,
@@ -5371,7 +5755,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-08T15:13:17.714Z",
+                                      "default": "2026-03-07T14:02:06.356Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -5538,6 +5922,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -5574,7 +5979,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.770Z",
+                          "default": "2026-03-07T14:02:06.419Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -5620,6 +6025,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -5660,7 +6066,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5681,7 +6087,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -5735,6 +6140,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -5775,7 +6181,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5796,7 +6202,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -5916,6 +6321,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -5952,7 +6378,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.773Z",
+                          "default": "2026-03-07T14:02:06.426Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -5998,6 +6424,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -6038,7 +6465,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6059,7 +6486,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -6113,6 +6539,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -6153,7 +6580,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6174,7 +6601,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -6235,7 +6661,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.772Z",
+                        "default": "2026-03-07T14:02:06.422Z",
                         "type": "string"
                       },
                       "heroGallery": {},
@@ -6322,6 +6748,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -6358,7 +6805,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.778Z",
+                          "default": "2026-03-07T14:02:06.428Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -6404,6 +6851,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -6444,7 +6892,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6465,7 +6913,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -6519,6 +6966,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -6559,7 +7007,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6580,7 +7028,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -6719,6 +7166,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -6755,7 +7223,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.781Z",
+                          "default": "2026-03-07T14:02:06.432Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -6800,6 +7268,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -6840,7 +7309,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6861,7 +7330,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -6978,6 +7446,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -7014,7 +7503,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.784Z",
+                          "default": "2026-03-07T14:02:06.435Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -7059,6 +7548,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -7099,7 +7589,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7120,7 +7610,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -7180,7 +7669,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.783Z",
+                        "default": "2026-03-07T14:02:06.434Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -7264,6 +7753,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -7300,7 +7810,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.786Z",
+                          "default": "2026-03-07T14:02:06.437Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -7345,6 +7855,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -7385,7 +7896,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7406,7 +7917,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -7544,6 +8054,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -7580,7 +8111,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.789Z",
+                          "default": "2026-03-07T14:02:06.440Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -7762,6 +8293,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -7798,7 +8350,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.794Z",
+                          "default": "2026-03-07T14:02:06.446Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -7923,7 +8475,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.793Z",
+                        "default": "2026-03-07T14:02:06.445Z",
                         "type": "string"
                       },
                       "serviceCategories": {
@@ -8010,6 +8562,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -8046,7 +8619,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.795Z",
+                          "default": "2026-03-07T14:02:06.448Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -8249,6 +8822,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -8285,7 +8879,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.798Z",
+                          "default": "2026-03-07T14:02:06.451Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -8330,6 +8924,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -8370,7 +8965,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8391,7 +8986,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -8508,6 +9102,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -8544,7 +9159,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.800Z",
+                          "default": "2026-03-07T14:02:06.454Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -8589,6 +9204,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -8629,7 +9245,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8650,7 +9266,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -8710,7 +9325,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.799Z",
+                        "default": "2026-03-07T14:02:06.453Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -8794,6 +9409,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -8830,7 +9466,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.801Z",
+                          "default": "2026-03-07T14:02:06.459Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -8875,6 +9511,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -8915,7 +9552,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8936,7 +9573,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -9074,6 +9710,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -9110,7 +9767,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.806Z",
+                          "default": "2026-03-07T14:02:06.462Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -9245,6 +9902,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -9281,7 +9959,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.810Z",
+                          "default": "2026-03-07T14:02:06.466Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -9359,7 +10037,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.809Z",
+                        "default": "2026-03-07T14:02:06.465Z",
                         "type": "string"
                       },
                       "youtubeGallery": {}
@@ -9443,6 +10121,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -9479,7 +10178,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.812Z",
+                          "default": "2026-03-07T14:02:06.468Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -9635,6 +10334,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -9671,7 +10391,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.814Z",
+                          "default": "2026-03-07T14:02:06.471Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -9716,6 +10436,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -9756,7 +10477,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9777,7 +10498,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -9894,6 +10614,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -9930,7 +10671,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.816Z",
+                          "default": "2026-03-07T14:02:06.473Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -9975,6 +10716,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -10015,7 +10757,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10036,7 +10778,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -10096,7 +10837,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.816Z",
+                        "default": "2026-03-07T14:02:06.473Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -10180,6 +10921,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -10216,7 +10978,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.818Z",
+                          "default": "2026-03-07T14:02:06.475Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -10261,6 +11023,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -10301,7 +11064,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10322,7 +11085,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -10460,6 +11222,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -10496,7 +11279,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.820Z",
+                          "default": "2026-03-07T14:02:06.478Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -10541,6 +11324,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -10581,7 +11365,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10602,7 +11386,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -10718,6 +11501,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -10754,7 +11558,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.822Z",
+                          "default": "2026-03-07T14:02:06.481Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -10799,6 +11603,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -10839,7 +11644,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10860,7 +11665,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
@@ -10919,7 +11723,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-08T15:13:17.822Z",
+                        "default": "2026-03-07T14:02:06.480Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -11003,6 +11807,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -11039,7 +11864,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-08T15:13:17.824Z",
+                          "default": "2026-03-07T14:02:06.483Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -11084,6 +11909,7 @@
                                       "caption": {
                                         "type": "string"
                                       },
+                                      "focalPoint": {},
                                       "width": {
                                         "type": "integer",
                                         "minimum": -9007199254740991,
@@ -11124,7 +11950,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-08T15:13:17.714Z",
+                                        "default": "2026-03-07T14:02:06.356Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -11145,7 +11971,6 @@
                                   }
                                 },
                                 "required": [
-                                  "title",
                                   "image"
                                 ],
                                 "additionalProperties": false
