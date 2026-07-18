@@ -37,6 +37,6 @@ services:
       - key: ENCRYPTION_KEY
         generateValue: true
       - key: PREVIEW_SECRET
-        generateValue: true
+        sync: false
       - key: CLIENT_URL
         sync: false
