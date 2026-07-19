@@ -1,12 +1,34 @@
 {
   "openapi": "3.1.0",
   "x-powered-by": "strapi",
-  "x-strapi-version": "5.38.0",
+  "x-strapi-version": "5.50.2",
   "info": {
     "title": "edp-photography-cms",
     "description": "API documentation for edp-photography-cms v0.1.0",
     "version": "0.1.0"
   },
+  "servers": [
+    {
+      "url": "",
+      "description": "Default server"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "JWT Bearer token for authentication"
+      }
+    },
+    "schemas": {}
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
   "paths": {
     "/about-page": {
       "get": {
@@ -86,6 +108,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -98,6 +122,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -167,7 +211,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.349Z",
+                          "default": "2026-07-19T13:46:41.187Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -253,7 +297,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -394,6 +438,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -458,7 +522,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.363Z",
+                          "default": "2026-07-19T13:46:41.203Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -544,7 +608,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -632,7 +696,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.360Z",
+                        "default": "2026-07-19T13:46:41.201Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -721,6 +785,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -785,7 +869,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.366Z",
+                          "default": "2026-07-19T13:46:41.207Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -871,7 +955,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1013,6 +1097,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -1025,6 +1111,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -1085,7 +1191,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.369Z",
+                          "default": "2026-07-19T13:46:41.212Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1171,7 +1277,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1310,6 +1416,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -1365,7 +1491,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.371Z",
+                          "default": "2026-07-19T13:46:41.216Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1451,7 +1577,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1531,7 +1657,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.371Z",
+                        "default": "2026-07-19T13:46:41.215Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -1617,6 +1743,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -1672,7 +1818,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.373Z",
+                          "default": "2026-07-19T13:46:41.219Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -1758,7 +1904,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1901,6 +2047,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -1913,6 +2061,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -1973,7 +2141,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.377Z",
+                          "default": "2026-07-19T13:46:41.224Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2059,7 +2227,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2197,6 +2365,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -2252,7 +2440,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.380Z",
+                          "default": "2026-07-19T13:46:41.227Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2338,7 +2526,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2417,7 +2605,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.379Z",
+                        "default": "2026-07-19T13:46:41.226Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -2503,6 +2691,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -2558,7 +2766,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.382Z",
+                          "default": "2026-07-19T13:46:41.230Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2644,7 +2852,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2786,6 +2994,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -2798,6 +3008,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -2858,7 +3088,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.385Z",
+                          "default": "2026-07-19T13:46:41.245Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -2944,7 +3174,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3082,6 +3312,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -3137,7 +3387,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.388Z",
+                          "default": "2026-07-19T13:46:41.248Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3223,7 +3473,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3302,7 +3552,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.387Z",
+                        "default": "2026-07-19T13:46:41.247Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -3388,6 +3638,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -3443,7 +3713,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.390Z",
+                          "default": "2026-07-19T13:46:41.250Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3529,7 +3799,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3671,6 +3941,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -3683,6 +3955,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -3743,7 +4035,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.397Z",
+                          "default": "2026-07-19T13:46:41.254Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -3829,7 +4121,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3968,6 +4260,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -4023,7 +4335,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.400Z",
+                          "default": "2026-07-19T13:46:41.258Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -4109,7 +4421,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4189,7 +4501,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.399Z",
+                        "default": "2026-07-19T13:46:41.257Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -4275,6 +4587,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -4330,7 +4662,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.402Z",
+                          "default": "2026-07-19T13:46:41.261Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -4416,7 +4748,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4571,6 +4903,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -4583,6 +4917,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -4663,7 +5017,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.406Z",
+                          "default": "2026-07-19T13:46:41.266Z",
                           "type": "string"
                         },
                         "seo": {
@@ -4758,7 +5112,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-03-07T14:02:06.356Z",
+                                  "default": "2026-07-19T13:46:41.196Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -4860,7 +5214,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T14:02:06.356Z",
+                                      "default": "2026-07-19T13:46:41.196Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -5012,6 +5366,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -5087,7 +5461,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.414Z",
+                          "default": "2026-07-19T13:46:41.276Z",
                           "type": "string"
                         },
                         "seo": {
@@ -5182,7 +5556,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-03-07T14:02:06.356Z",
+                                  "default": "2026-07-19T13:46:41.196Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -5284,7 +5658,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T14:02:06.356Z",
+                                      "default": "2026-07-19T13:46:41.196Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -5391,7 +5765,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.412Z",
+                        "default": "2026-07-19T13:46:41.274Z",
                         "type": "string"
                       },
                       "seo": {}
@@ -5483,6 +5857,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -5558,7 +5952,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.416Z",
+                          "default": "2026-07-19T13:46:41.279Z",
                           "type": "string"
                         },
                         "seo": {
@@ -5653,7 +6047,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-03-07T14:02:06.356Z",
+                                  "default": "2026-07-19T13:46:41.196Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -5755,7 +6149,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T14:02:06.356Z",
+                                      "default": "2026-07-19T13:46:41.196Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -5907,6 +6301,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -5919,6 +6315,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -5979,7 +6395,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.419Z",
+                          "default": "2026-07-19T13:46:41.283Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -6066,7 +6482,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6181,7 +6597,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6323,6 +6739,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -6378,7 +6814,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.426Z",
+                          "default": "2026-07-19T13:46:41.287Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -6465,7 +6901,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6580,7 +7016,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6661,7 +7097,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.422Z",
+                        "default": "2026-07-19T13:46:41.286Z",
                         "type": "string"
                       },
                       "heroGallery": {},
@@ -6750,6 +7186,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -6805,7 +7261,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.428Z",
+                          "default": "2026-07-19T13:46:41.290Z",
                           "type": "string"
                         },
                         "heroGallery": {
@@ -6892,7 +7348,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7007,7 +7463,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7151,6 +7607,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -7163,6 +7621,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -7223,7 +7701,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.432Z",
+                          "default": "2026-07-19T13:46:41.294Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -7309,7 +7787,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7448,6 +7926,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -7503,7 +8001,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.435Z",
+                          "default": "2026-07-19T13:46:41.297Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -7589,7 +8087,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7669,7 +8167,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.434Z",
+                        "default": "2026-07-19T13:46:41.296Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -7755,6 +8253,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -7810,7 +8328,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.437Z",
+                          "default": "2026-07-19T13:46:41.299Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -7896,7 +8414,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8039,6 +8557,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -8051,6 +8571,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -8111,7 +8651,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.440Z",
+                          "default": "2026-07-19T13:46:41.302Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -8295,6 +8835,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -8350,7 +8910,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.446Z",
+                          "default": "2026-07-19T13:46:41.309Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -8475,7 +9035,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.445Z",
+                        "default": "2026-07-19T13:46:41.308Z",
                         "type": "string"
                       },
                       "serviceCategories": {
@@ -8564,6 +9124,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -8619,7 +9199,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.448Z",
+                          "default": "2026-07-19T13:46:41.312Z",
                           "type": "string"
                         },
                         "serviceCategories": {
@@ -8807,6 +9387,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -8819,6 +9401,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -8879,7 +9481,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.451Z",
+                          "default": "2026-07-19T13:46:41.315Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -8965,7 +9567,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9104,6 +9706,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -9159,7 +9781,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.454Z",
+                          "default": "2026-07-19T13:46:41.319Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -9245,7 +9867,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9325,7 +9947,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.453Z",
+                        "default": "2026-07-19T13:46:41.318Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -9411,6 +10033,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -9466,7 +10108,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.459Z",
+                          "default": "2026-07-19T13:46:41.322Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -9552,7 +10194,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9695,6 +10337,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -9707,6 +10351,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -9767,7 +10431,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.462Z",
+                          "default": "2026-07-19T13:46:41.325Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -9904,6 +10568,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -9959,7 +10643,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.466Z",
+                          "default": "2026-07-19T13:46:41.329Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -10037,7 +10721,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.465Z",
+                        "default": "2026-07-19T13:46:41.328Z",
                         "type": "string"
                       },
                       "youtubeGallery": {}
@@ -10123,6 +10807,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -10178,7 +10882,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.468Z",
+                          "default": "2026-07-19T13:46:41.331Z",
                           "type": "string"
                         },
                         "youtubeGallery": {
@@ -10319,6 +11023,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -10331,6 +11037,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -10391,7 +11117,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.471Z",
+                          "default": "2026-07-19T13:46:41.335Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -10477,7 +11203,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10616,6 +11342,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -10671,7 +11417,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.473Z",
+                          "default": "2026-07-19T13:46:41.338Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -10757,7 +11503,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10837,7 +11583,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.473Z",
+                        "default": "2026-07-19T13:46:41.337Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -10923,6 +11669,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -10978,7 +11744,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.475Z",
+                          "default": "2026-07-19T13:46:41.340Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -11064,7 +11830,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -11207,6 +11973,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           },
           {
@@ -11219,6 +11987,26 @@
               "enum": [
                 "draft",
                 "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
               ]
             },
             "x-strapi-serialize": "querystring"
@@ -11279,7 +12067,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.478Z",
+                          "default": "2026-07-19T13:46:41.343Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -11365,7 +12153,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -11503,6 +12291,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -11558,7 +12366,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.481Z",
+                          "default": "2026-07-19T13:46:41.347Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -11644,7 +12452,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -11723,7 +12531,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T14:02:06.480Z",
+                        "default": "2026-07-19T13:46:41.346Z",
                         "type": "string"
                       },
                       "imageGallery": {}
@@ -11809,6 +12617,26 @@
             "x-strapi-serialize": "querystring"
           },
           {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
             "name": "hasPublishedVersion",
             "in": "query",
             "required": false,
@@ -11864,7 +12692,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T14:02:06.483Z",
+                          "default": "2026-07-19T13:46:41.349Z",
                           "type": "string"
                         },
                         "imageGallery": {
@@ -11950,7 +12778,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T14:02:06.356Z",
+                                        "default": "2026-07-19T13:46:41.196Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -12020,9 +12848,9 @@
         ]
       }
     },
-    "/content-types": {
+    "/content-type-builder/content-types": {
       "get": {
-        "operationId": "content-type-builder/get/content_types",
+        "operationId": "content-type-builder/get/content_type_builder_content_types",
         "parameters": [
           {
             "name": "kind",
@@ -12477,9 +13305,9 @@
         ]
       }
     },
-    "/content-types/{uid}": {
+    "/content-type-builder/content-types/{uid}": {
       "get": {
-        "operationId": "content-type-builder/get/content_types_by_uid",
+        "operationId": "content-type-builder/get/content_type_builder_content_types_by_uid",
         "parameters": [
           {
             "name": "uid",
@@ -12927,9 +13755,9 @@
         ]
       }
     },
-    "/components": {
+    "/content-type-builder/components": {
       "get": {
-        "operationId": "content-type-builder/get/components",
+        "operationId": "content-type-builder/get/content_type_builder_components",
         "parameters": [],
         "responses": {
           "200": {
@@ -13319,9 +14147,9 @@
         ]
       }
     },
-    "/components/{uid}": {
+    "/content-type-builder/components/{uid}": {
       "get": {
-        "operationId": "content-type-builder/get/components_by_uid",
+        "operationId": "content-type-builder/get/content_type_builder_components_by_uid",
         "parameters": [
           {
             "name": "uid",
@@ -13719,9 +14547,92 @@
         ]
       }
     },
-    "/": {
+    "/email": {
       "post": {
-        "operationId": "upload/post",
+        "operationId": "email/post/email",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {},
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "email"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "from": {
+                    "type": "string"
+                  },
+                  "to": {
+                    "type": "string"
+                  },
+                  "cc": {
+                    "type": "string"
+                  },
+                  "bcc": {
+                    "type": "string"
+                  },
+                  "replyTo": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "html": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "to",
+                  "subject",
+                  "text"
+                ],
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/upload": {
+      "post": {
+        "operationId": "upload/post/upload",
         "parameters": [
           {
             "name": "id",
@@ -14031,9 +14942,9 @@
         ]
       }
     },
-    "/files": {
+    "/upload/files": {
       "get": {
-        "operationId": "upload/get/files",
+        "operationId": "upload/get/upload_files",
         "parameters": [
           {
             "name": "fields",
@@ -14136,66 +15047,55 @@
             "x-strapi-serialize": "querystring"
           },
           {
-            "name": "pagination",
+            "name": "pagination[withCount]",
             "in": "query",
             "required": false,
             "schema": {
-              "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "allOf": [
-                {
-                  "type": "object",
-                  "properties": {
-                    "withCount": {
-                      "type": "boolean"
-                    }
-                  },
-                  "additionalProperties": false
-                },
-                {
-                  "anyOf": [
-                    {
-                      "type": "object",
-                      "properties": {
-                        "page": {
-                          "type": "integer",
-                          "exclusiveMinimum": 0,
-                          "maximum": 9007199254740991
-                        },
-                        "pageSize": {
-                          "type": "integer",
-                          "exclusiveMinimum": 0,
-                          "maximum": 9007199254740991
-                        }
-                      },
-                      "required": [
-                        "page",
-                        "pageSize"
-                      ],
-                      "additionalProperties": false
-                    },
-                    {
-                      "type": "object",
-                      "properties": {
-                        "start": {
-                          "type": "integer",
-                          "minimum": 0,
-                          "maximum": 9007199254740991
-                        },
-                        "limit": {
-                          "type": "integer",
-                          "exclusiveMinimum": 0,
-                          "maximum": 9007199254740991
-                        }
-                      },
-                      "required": [
-                        "start",
-                        "limit"
-                      ],
-                      "additionalProperties": false
-                    }
-                  ]
-                }
-              ]
+              "type": "boolean"
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[page]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[pageSize]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[start]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[limit]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
             },
             "x-strapi-serialize": "querystring"
           },
@@ -14211,6 +15111,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           }
         ],
@@ -14376,9 +15278,423 @@
         ]
       }
     },
-    "/files/{id}": {
+    "/upload/files/page": {
       "get": {
-        "operationId": "upload/get/files_by_id",
+        "operationId": "upload/get/upload_files_page",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {}
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string",
+                    "enum": [
+                      "asc",
+                      "desc"
+                    ]
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string"
+                    },
+                    "additionalProperties": {
+                      "type": "string",
+                      "enum": [
+                        "asc",
+                        "desc"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[withCount]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[page]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[pageSize]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[start]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[limit]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "style": "deepObject",
+            "explode": true,
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "exclusiveMinimum": 0,
+                            "maximum": 9007199254740991
+                          },
+                          "documentId": {
+                            "type": "string",
+                            "format": "uuid",
+                            "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "alternativeText": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "caption": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "width": {
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          },
+                          "height": {
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          },
+                          "formats": {
+                            "type": "object",
+                            "propertyNames": {
+                              "type": "string"
+                            },
+                            "additionalProperties": {}
+                          },
+                          "hash": {
+                            "type": "string"
+                          },
+                          "ext": {
+                            "type": "string"
+                          },
+                          "mime": {
+                            "type": "string"
+                          },
+                          "size": {
+                            "type": "number"
+                          },
+                          "url": {
+                            "type": "string"
+                          },
+                          "previewUrl": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "folder": {
+                            "type": "number"
+                          },
+                          "folderPath": {
+                            "type": "string"
+                          },
+                          "provider": {
+                            "type": "string"
+                          },
+                          "provider_metadata": {
+                            "anyOf": [
+                              {
+                                "type": "object",
+                                "propertyNames": {
+                                  "type": "string"
+                                },
+                                "additionalProperties": {}
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "createdAt": {
+                            "type": "string"
+                          },
+                          "updatedAt": {
+                            "type": "string"
+                          },
+                          "createdBy": {
+                            "type": "number"
+                          },
+                          "updatedBy": {
+                            "type": "number"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "documentId",
+                          "name",
+                          "hash",
+                          "mime",
+                          "size",
+                          "url",
+                          "folderPath",
+                          "provider",
+                          "createdAt",
+                          "updatedAt"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "meta": {
+                      "type": "object",
+                      "properties": {
+                        "pagination": {
+                          "anyOf": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "page": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "pageSize": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "pageCount": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "total": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                }
+                              },
+                              "required": [
+                                "page",
+                                "pageSize"
+                              ],
+                              "additionalProperties": false
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "start": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "limit": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "total": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                }
+                              },
+                              "required": [
+                                "start",
+                                "limit"
+                              ],
+                              "additionalProperties": false
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "pagination"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "meta"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "upload"
+        ]
+      }
+    },
+    "/upload/files/{id}": {
+      "get": {
+        "operationId": "upload/get/upload_files_by_id",
         "parameters": [
           {
             "name": "id",
@@ -14602,7 +15918,7 @@
         ]
       },
       "delete": {
-        "operationId": "upload/delete/files_by_id",
+        "operationId": "upload/delete/upload_files_by_id",
         "parameters": [
           {
             "name": "id",
@@ -14775,9 +16091,9 @@
         ]
       }
     },
-    "/locales": {
+    "/i18n/locales": {
       "get": {
-        "operationId": "i18n/get/locales",
+        "operationId": "i18n/get/i18n_locales",
         "parameters": [],
         "responses": {
           "200": {
@@ -16050,6 +17366,58 @@
         ]
       }
     },
+    "/auth/sessions": {
+      "get": {
+        "operationId": "users-permissions/get/auth_sessions",
+        "parameters": [],
+        "responses": {
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "users-permissions"
+        ]
+      }
+    },
+    "/auth/sessions/{sessionId}": {
+      "delete": {
+        "operationId": "users-permissions/delete/auth_sessions_by_sessionId",
+        "parameters": [],
+        "responses": {
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "users-permissions"
+        ]
+      }
+    },
     "/users/count": {
       "get": {
         "operationId": "users-permissions/get/users_count",
@@ -16066,6 +17434,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           }
         ],
@@ -16207,66 +17577,55 @@
             "x-strapi-serialize": "querystring"
           },
           {
-            "name": "pagination",
+            "name": "pagination[withCount]",
             "in": "query",
             "required": false,
             "schema": {
-              "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "allOf": [
-                {
-                  "type": "object",
-                  "properties": {
-                    "withCount": {
-                      "type": "boolean"
-                    }
-                  },
-                  "additionalProperties": false
-                },
-                {
-                  "anyOf": [
-                    {
-                      "type": "object",
-                      "properties": {
-                        "page": {
-                          "type": "integer",
-                          "exclusiveMinimum": 0,
-                          "maximum": 9007199254740991
-                        },
-                        "pageSize": {
-                          "type": "integer",
-                          "exclusiveMinimum": 0,
-                          "maximum": 9007199254740991
-                        }
-                      },
-                      "required": [
-                        "page",
-                        "pageSize"
-                      ],
-                      "additionalProperties": false
-                    },
-                    {
-                      "type": "object",
-                      "properties": {
-                        "start": {
-                          "type": "integer",
-                          "minimum": 0,
-                          "maximum": 9007199254740991
-                        },
-                        "limit": {
-                          "type": "integer",
-                          "exclusiveMinimum": 0,
-                          "maximum": 9007199254740991
-                        }
-                      },
-                      "required": [
-                        "start",
-                        "limit"
-                      ],
-                      "additionalProperties": false
-                    }
-                  ]
-                }
-              ]
+              "type": "boolean"
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[page]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[pageSize]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[start]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination[limit]",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
             },
             "x-strapi-serialize": "querystring"
           },
@@ -16282,6 +17641,8 @@
               },
               "additionalProperties": {}
             },
+            "style": "deepObject",
+            "explode": true,
             "x-strapi-serialize": "querystring"
           }
         ],
@@ -16555,7 +17916,64 @@
                     "type": "string"
                   },
                   "role": {
-                    "type": "number"
+                    "anyOf": [
+                      {
+                        "type": "number"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "connect": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number"
+                                    },
+                                    {
+                                      "type": "string"
+                                    }
+                                  ]
+                                },
+                                "documentId": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false
+                            }
+                          },
+                          "disconnect": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number"
+                                    },
+                                    {
+                                      "type": "string"
+                                    }
+                                  ]
+                                },
+                                "documentId": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false
+                            }
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    ]
                   }
                 },
                 "required": [
@@ -17092,7 +18510,64 @@
                     "type": "string"
                   },
                   "role": {
-                    "type": "number"
+                    "anyOf": [
+                      {
+                        "type": "number"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "connect": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number"
+                                    },
+                                    {
+                                      "type": "string"
+                                    }
+                                  ]
+                                },
+                                "documentId": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false
+                            }
+                          },
+                          "disconnect": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "anyOf": [
+                                    {
+                                      "type": "number"
+                                    },
+                                    {
+                                      "type": "string"
+                                    }
+                                  ]
+                                },
+                                "documentId": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false
+                            }
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    ]
                   }
                 },
                 "additionalProperties": false
@@ -17238,9 +18713,9 @@
         ]
       }
     },
-    "/roles/{id}": {
+    "/users-permissions/roles/{id}": {
       "get": {
-        "operationId": "users-permissions/get/roles_by_id",
+        "operationId": "users-permissions/get/users_permissions_roles_by_id",
         "parameters": [
           {
             "name": "id",
@@ -17388,9 +18863,9 @@
         ]
       }
     },
-    "/roles": {
+    "/users-permissions/roles": {
       "get": {
-        "operationId": "users-permissions/get/roles",
+        "operationId": "users-permissions/get/users_permissions_roles",
         "parameters": [],
         "responses": {
           "200": {
@@ -17531,7 +19006,7 @@
         ]
       },
       "post": {
-        "operationId": "users-permissions/post/roles",
+        "operationId": "users-permissions/post/users_permissions_roles",
         "parameters": [],
         "responses": {
           "200": {
@@ -17608,9 +19083,9 @@
         }
       }
     },
-    "/roles/{role}": {
+    "/users-permissions/roles/{role}": {
       "put": {
-        "operationId": "users-permissions/put/roles_by_role",
+        "operationId": "users-permissions/put/users_permissions_roles_by_role",
         "parameters": [
           {
             "name": "role",
@@ -17693,7 +19168,7 @@
         }
       },
       "delete": {
-        "operationId": "users-permissions/delete/roles_by_role",
+        "operationId": "users-permissions/delete/users_permissions_roles_by_role",
         "parameters": [
           {
             "name": "role",
@@ -17747,9 +19222,9 @@
         ]
       }
     },
-    "/permissions": {
+    "/users-permissions/permissions": {
       "get": {
-        "operationId": "users-permissions/get/permissions",
+        "operationId": "users-permissions/get/users_permissions_permissions",
         "parameters": [],
         "responses": {
           "200": {
@@ -17833,8 +19308,5 @@
         ]
       }
     }
-  },
-  "components": {
-    "schemas": {}
   }
 }
