@@ -7,7 +7,7 @@ services:
     branch: render-deploy # test branch. Flip to `main` at cutover (Lesson 4).
     autoDeploy: true
     buildCommand: npm install && npm run build
-    startCommand: mkdir -p /data/uploads && ln -sfn /data/uploads public/uploads && npm run start
+    startCommand: rm -rf public/uploads && mkdir -p /data/uploads && ln -s /data/uploads public/uploads && npm run start
     healthCheckPath: /_health
     disk:
       name: strapi-data
