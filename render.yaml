@@ -1,0 +1,42 @@
+services:
+  - type: web
+    name: edp-photography-cms
+    runtime: node
+    plan: starter
+    region: frankfurt
+    branch: main
+    autoDeploy: true
+    buildCommand: npm install && npm run build
+    startCommand: rm -rf public/uploads && mkdir -p /data/uploads && ln -s /data/uploads public/uploads && npm run start
+    healthCheckPath: /_health
+    disk:
+      name: strapi-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "20.18.0"
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_CLIENT
+        value: sqlite
+      - key: DATABASE_FILENAME
+        value: /data/data.db
+      - key: HOST
+        value: 0.0.0.0
+      - key: APP_KEYS
+        generateValue: true
+      - key: API_TOKEN_SALT
+        generateValue: true
+      - key: ADMIN_JWT_SECRET
+        generateValue: true
+      - key: TRANSFER_TOKEN_SALT
+        generateValue: true
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ENCRYPTION_KEY
+        generateValue: true
+      - key: PREVIEW_SECRET
+        sync: false
+      - key: CLIENT_URL
+        sync: false
