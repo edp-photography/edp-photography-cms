@@ -4,7 +4,7 @@ services:
     runtime: node
     plan: starter
     region: frankfurt
-    branch: render-deploy # test branch. Flip to `main` at cutover (Lesson 4).
+    branch: main
     autoDeploy: true
     buildCommand: npm install && npm run build
     startCommand: rm -rf public/uploads && mkdir -p /data/uploads && ln -s /data/uploads public/uploads && npm run start
